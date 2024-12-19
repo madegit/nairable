@@ -7,6 +7,13 @@ import { ArrowUpRight } from 'lucide-react';
 export function HeroSection() {
   return (
     <section className="relative min-h-[80vh] pt-20 tracking-tight overflow-hidden">
+      {/* Background Blobs */}
+      <div className="absolute inset-0 -z-20 min-h-[80vh]">
+        <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] rounded-full bg-yellow-300/30 blur-[80px] animate-blob" />
+        <div className="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] rounded-full bg-green-400/30 blur-[80px] animate-blob animation-delay-2000" />
+    
+      </div>
+
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-[radial-gradient(#00000025_1px,transparent_1px)] [background-size:24px_24px] -z-10" />
 
@@ -69,8 +76,8 @@ export function HeroSection() {
 
         {/* Main Content */}
         <div className="flex flex-col items-center justify-center min-h-[80vh] text-center px-4 relative z-10">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
-            Creative Solutions<br />Tailored for Your Business
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 tracking-tighter">
+            Creative Solutions<br />Tailored for Your Business.
           </h1>
           <p className="text-gray-600 mb-4 max-w-md text-sm sm:text-base">
             We craft digital experiences that captivate and convert visitors into loyal customers.
@@ -106,19 +113,21 @@ export function HeroSection() {
               height={40}
               className="w-10 h-10 rounded-full border-2 border-white -ml-3"
             />
-            <p className="text-gray-500 text-sm ml-4">Trusted already by 1.2k+</p>
+            <p className="text-gray-500 text-sm sm:ml-2 md:ml-4">
+              Trusted already by 1.2k+
+            </p>
           </div>
 
           <div className="flex items-center space-x-2 md:space-x-4">
             <Button
               variant="outline"
-              className="bg-transparent rounded-xl text-[#08CE6C] hover:bg-gray-100 px-4 py-4 border border-[#08CE6C] sm:px-10 sm:py-6"
+              className="bg-white rounded-xl text-[#08CE6C] hover:bg-gray-100 px-4 py-5 border border-gray-300 sm:px-10 sm:py-6"
             >
               Learn More
             </Button>
             <Button
               variant="default"
-              className="bg-[#08CE6C] rounded-xl text-white hover:bg-gray-800 px-4 py-4 flex items-center justify-center sm:px-10 sm:py-6"
+              className="bg-[#08CE6C] rounded-xl text-white hover:bg-gray-800 px-4 py-5 flex items-center justify-center sm:px-10 sm:py-6"
             >
               <span>Contact Us</span>
               <ArrowUpRight className="w-5 h-5 ml-2" />

@@ -64,10 +64,10 @@ export default function LogoMarquee() {
   }, []);
 
   return (
-    <section className="w-full py-12 bg-white overflow-hidden tracking-tight" aria-label="Our technology partners">
+    <section className="w-full py-8 bg-white overflow-hidden tracking-tight" aria-label="Our technology partners">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-center text-md md:text-xl text-gray-600 mb-2 md:mb-12">
-          We use the best technology
+          We use the best technology.
         </h2>
         <div className="relative">
           {/* Left fade gradient */}
