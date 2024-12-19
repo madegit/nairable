@@ -1,0 +1,112 @@
+'use client';
+
+import { Button } from '@/components/ui/button';
+import { ArrowUpRight } from 'lucide-react';
+
+export function HeroSection() {
+  return (
+    <section className="relative min-h-80vh pt-20 tracking-tight overflow-hidden">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 bg-[radial-gradient(#00000025_1px,transparent_1px)] [background-size:24px_24px] -z-10" />
+
+      {/* Floating Icons */}
+      <div className="relative max-w-4xl mx-auto px-4">
+        {/* Globe Icon - Large */}
+        <div className="absolute left-4 top-32 md:left-10 md:top-40 animate-float z-0">
+          <img
+            src="/ill3.jpeg?height=100&width=100"
+            alt="Globe Icon"
+            className="w-20 h-20 md:w-24 md:h-24 rounded-2xl shadow-lg"
+          />
+        </div>
+
+        {/* Yellow Icon - Medium */}
+        <div className="absolute left-20 top-16 md:left-32 md:top-20 animate-float-delay-1 z-0">
+          <img
+            src="/ill5.jpeg?height=80&width=80"
+            alt="Yellow Icon"
+            className="w-16 h-16 md:w-20 md:h-20 rounded-2xl shadow-lg"
+          />
+        </div>
+
+        {/* Purple Robot - Medium */}
+        <div className="absolute right-8 top-24 md:right-16 md:top-32 animate-float-delay-2 z-0">
+          <img
+            src="/ill1.jpeg?height=80&width=80"
+            alt="Purple Robot"
+            className="w-16 h-16 md:w-20 md:h-20 rounded-2xl shadow-lg"
+          />
+        </div>
+
+        {/* Neon Yellow - Large */}
+        <div className="absolute right-12 bottom-32 md:right-24 md:bottom-40 animate-float-delay-3 z-0">
+          <img
+            src="/ill6.jpeg?height=100&width=100"
+            alt="Neon Icon"
+            className="w-20 h-20 md:w-24 md:h-24 rounded-2xl shadow-lg"
+          />
+        </div>
+
+        {/* Grayscale 3D - Medium */}
+        <div className="absolute left-16 bottom-24 md:left-28 md:bottom-32 animate-float-delay-4 z-0">
+          <img
+            src="/ill4.jpeg?height=80&width=80"
+            alt="3D Icon"
+            className="w-16 h-16 md:w-20 md:h-20 rounded-2xl shadow-lg"
+          />
+        </div>
+
+        {/* Main Content */}
+        <div className="flex flex-col items-center justify-center min-h-[80vh] text-center px-4 relative z-10">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
+            Creative Solutions<br />Tailored for Your Business
+          </h1>
+          <p className="text-gray-600 mb-4 max-w-md text-sm sm:text-base">
+            We craft digital experiences that captivate and convert visitors into loyal customers.
+          </p>
+
+          {/* Trusted by Section */}
+          <div className="flex items-center mb-8">
+            <img
+              src="/user8.jpg?height=40&width=40"
+              alt="User 1"
+              className="w-10 h-10 rounded-full border-2 border-white "
+            />
+            <img
+              src="/user2.JPG?height=40&width=40"
+              alt="User 2"
+              className="w-10 h-10 rounded-full border-2 border-white -ml-3"
+            />
+            <img
+              src="/user5.JPG?height=40&width=40"
+              alt="User 3"
+              className="w-10 h-10 rounded-full border-2 border-white -ml-3"
+            />
+            <img
+              src="/user4.JPG?height=40&width=40"
+              alt="User 4"
+              className="w-10 h-10 rounded-full border-2 border-white -ml-3"
+            />
+            <p className="text-gray-500 text-sm ml-4">Trusted already by 1.2k+</p>
+          </div>
+
+          <div className="flex items-center space-x-2 md:space-x-4">
+            <Button
+              variant="outline"
+              className="bg-transparent rounded-xl text-[#08CE6C] hover:bg-gray-100 px-4 py-4 border border-[#08CE6C] sm:px-10 sm:py-6"
+            >
+              Learn More
+            </Button>
+            <Button
+              variant="default"
+              className="bg-[#08CE6C] rounded-xl text-white hover:bg-gray-800 px-4 py-4 flex items-center justify-center sm:px-10 sm:py-6"
+            >
+              <span>Contact Us</span>
+              <ArrowUpRight className="w-5 h-5" />
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
