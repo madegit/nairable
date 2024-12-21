@@ -20,10 +20,11 @@ export const BentoGrid = () => {
                   We specialize in crafting intuitive, user-friendly product designs that elevate your brand and enhance the user experience.
                 </p>
               </div>
-              <button className="bg-black text-white px-6 py-2.5 rounded-xl inline-flex items-center gap-2">
+              <a href="https://wa.me/message/HZ7KP2RUZNY2G1" target="_blank" rel="noopener noreferrer">
+                <button className="bg-black text-white px-6 py-2.5 rounded-xl inline-flex items-center gap-2">
                 Get Started
                 <ArrowUpRight className="w-5 h-5 ml-2" />
-              </button>
+              </button></a>
             </div>
             <div className="md:absolute md:right-[0px]  m-[-20px] md:m-0  top-[-50%] md:top-[10%] md:transform md:-translate-y-1/2">
               <Image
