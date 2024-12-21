@@ -7,7 +7,7 @@ export function BetaBanner() {
      
 
       {/* Background Pattern */}
-      <div className="absolute right-[200] md:right-[-200] bottom-[-40] md:bottom-0 w-full h-[70%] md:top-0 md:w-[65%] md:h-full">
+      <div className="absolute right-[200] md:right-[-200px] bottom-[-40] md:bottom-0 w-full h-[70%] md:top-0 md:w-[65%] md:h-full">
         <div className="relative w-full h-full">
           <Image
             src="/Component 1.png"
