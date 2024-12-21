@@ -16,7 +16,7 @@ export const BentoGrid = () => {
                   <br />
                   Design
                 </h2>
-                <p className="text-gray-600 text-lg tracking-tight">
+                <p className="text-gray-600 text-lg tracking-tight mb-5">
                   We specialize in crafting intuitive, user-friendly product designs that elevate your brand and enhance the user experience.
                 </p>
               </div>
@@ -26,7 +26,7 @@ export const BentoGrid = () => {
                 <ArrowUpRight className="w-5 h-5 ml-2" />
               </button></a>
             </div>
-            <div className="md:absolute md:right-[0px]  m-[-20px] md:m-0  top-[-50%] md:top-[10%] md:transform md:-translate-y-1/2">
+            <div className="md:absolute md:right-[0px]  m-[-20px] md:m-0  top-[-50%] md:top-[5%] md:transform md:-translate-y-1/2">
               <Image
                 src="/productdesign.png"
                 alt="Design showcase"
