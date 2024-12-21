@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 
 export function BetaBanner() {
   return (
-    <section className="relative h-[420px] overflow-hidden bg-[#012513] md:h-[360px] ">
+    <section className="relative h-[420px] overflow-hidden rounded-3xl bg-[#012513] m-5 md:mx-10 md:h-[360px] ">
      
 
       {/* Background Pattern */}
@@ -29,11 +29,11 @@ export function BetaBanner() {
             alt="Company Logo"
             width={50}
             height={50}
-            className="w-15 h-15"
+            className="w-10 md:w-15 h-10 md:h-15"
           />
         </div>
         <div className="md:max-w-[60%]">
-          <h1 className="text-white text-[32px] leading-[1.2] tracking-[-0.02em] font-regular mb-3 md:text-[40px] md:leading-[1.1] md:tracking-[-0.03em] md:mb-4">
+          <h1 className="text-white text-[32px] leading-[1.2] tracking-[-0.02em] font-semibold mb-3 md:text-[40px] md:leading-[1.1] md:tracking-[-0.03em] md:mb-4">
             Turn your brand into a great one.
           </h1>
           <p className="text-white/90 text-[16px] leading-[1.5] font-regular mb-6 md:text-[18px] md:leading-[1.4] md:mb-0">

@@ -1,7 +1,7 @@
 import { NavHeader } from '@/components/nav-header'
 import { HeroSection } from '@/components/hero-section'
 import  LogoMarquee  from '@/components/LogoMarquee'
-import { TopGainers } from '@/components/top-gainers'
+import { BentoGrid } from '@/components/bentogrid'
 import { BetaBanner } from '@/components/betabanner'
 import { Footer } from '@/components/footer'
 
@@ -11,7 +11,7 @@ export default function Home() {
       <NavHeader />
       <HeroSection />
       <LogoMarquee />
-      <TopGainers />
+      <BentoGrid />
       <BetaBanner />
       <Footer />
     </main>
