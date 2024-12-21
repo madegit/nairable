@@ -21,9 +21,10 @@ export function NavHeader() {
             <Link href="/member" className="text-sm hover:text-gray-600">Member</Link>
           </div>
         </div>
+         <a href="https://wa.me/message/HZ7KP2RUZNY2G1" target="_blank" rel="noopener noreferrer">
         <Button variant="outline" className="bg-transparent rounded-xl text-black border-black hover:bg-gray-800 px-3 py-1 md:px-4 md:py-2">
           Contact us
-        </Button>
+        </Button></a>
       </nav>
     </header>
   )

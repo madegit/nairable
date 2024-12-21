@@ -125,13 +125,14 @@ export function HeroSection() {
             >
               Learn More
             </Button>
-            <Button
+             <a href="https://wa.me/message/HZ7KP2RUZNY2G1" target="_blank" rel="noopener noreferrer">
+               <Button
               variant="default"
               className="bg-[#08CE6C] rounded-xl text-white hover:bg-gray-800 px-4 py-5 flex items-center justify-center sm:px-10 sm:py-6"
             >
               <span>Contact Us</span>
               <ArrowUpRight className="w-5 h-5 ml-2" />
-            </Button>
+            </Button></a>
           </div>
         </div>
       </div>

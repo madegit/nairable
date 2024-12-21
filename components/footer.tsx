@@ -22,7 +22,7 @@ export function Footer() {
       <div className="container mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
           {/* Logo and Newsletter Section */}
-          <div className="lg:col-span-5 space-y-6">
+          <div className="lg:col-span-5 space-y-6 pr-0 md:pr-20">
             <Link href="/" className="inline-block">
               <Image
                 src="/Nairable2.png"
@@ -33,7 +33,7 @@ export function Footer() {
               />
             </Link>
             <p className="text-gray-300 max-w-md">
-              Limitless Possibilities for Every Business
+              Limitless Possibilities for Every Business.
             </p>
             <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
               <Input
@@ -46,7 +46,7 @@ export function Footer() {
               />
               <Button 
                 type="submit"
-                className="bg-[#00FF85] rounded-lg text-black hover:bg-[#00FF85]/90"
+                className="bg-[#00FF85] rounded-lg font-bold text-black hover:bg-[#00FF85]/90"
               >
                 Subscribe
               </Button>
