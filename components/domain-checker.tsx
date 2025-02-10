@@ -90,7 +90,7 @@ export const DomainChecker = () => {
   }
 
   return (
-    <div className="max-w-3xl m-5 p-8 bg-[#E6F3FF] rounded-3xl">
+    <div className="max-w-3xl  m-5 md:mx-10 p-8 bg-[#E6F3FF] rounded-3xl">
       <h2 className="text-4xl font-bold tracking-tighter leading-tight mb-4">Discover Your Digital Identity</h2>
       <p className="text-gray-600 text-md tracking-tight mb-6">
         Let&apos;s find that perfect domain that screams &apos;you&apos;! Ready to make your mark on the web?
