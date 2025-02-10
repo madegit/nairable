@@ -45,7 +45,7 @@ export function BetaBanner() {
         <div>
           <a href="https://wa.me/message/HZ7KP2RUZNY2G1" target="_blank" rel="noopener noreferrer">
             <Button 
-              className="h-10 px-8 bg-white text-[#012513] tracking-[-0.02em] md:tracking-[-0.03em] hover:bg-white/90 rounded-full text-[16px] font-bold md:h-[52px] md:px-20"
+              className="h-10 px-8 bg-white text-[#012513] tracking-[-0.02em] md:tracking-[-0.03em] hover:bg-white/90 rounded-xl text-[16px] font-bold md:h-[52px] md:px-20"
             >
               Get in Touch
             </Button>

@@ -42,11 +42,11 @@ export function Footer() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="bg-white/10 rounded-lg text-sm md:text-md border-white/20 text-white placeholder:text-gray-400"
+                className="bg-white/10 rounded-xl text-sm md:text-md border-white/20 text-white placeholder:text-gray-400"
               />
               <Button 
                 type="submit"
-                className="bg-[#00FF85] rounded-lg font-bold text-black hover:bg-[#00FF85]/90"
+                className="bg-[#00FF85] rounded-xl text-md font-bold tracking-tighter text-black hover:bg-[#00FF85]/90"
               >
                 Subscribe
               </Button>
