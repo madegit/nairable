@@ -119,7 +119,7 @@ export const DomainChecker = () => {
       <button
         onClick={() => checkDomain(domain)}
         disabled={loading || !domain}
-        className="bg-black text-white px-6 tracking-tight py-2.5 rounded-xl inline-flex items-center gap-2 disabled:bg-gray-400 mb-4"
+        className="bg-black text-white px-6 mt-[-20] tracking-tight py-2.5 rounded-xl inline-flex items-center gap-2 disabled:bg-gray-400 mb-4"
       >
         {loading ? "Checking..." : "Check Domain"}
         <ArrowUpRight className="w-5 h-5" />

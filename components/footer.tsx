@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { Facebook, Twitter, Instagram, Linkedin, Github } from 'lucide-react'
+import { Facebook, Twitter, Instagram, Github } from 'lucide-react'
 
 export function Footer() {
   const [email, setEmail] = useState('')
@@ -102,7 +102,13 @@ export function Footer() {
               >
                 <Instagram size={24} />
               </a>
-             
+              <a 
+                href="https://github.com/madegit/nairable" 
+                className="text-gray-300 hover:text-[#00FF85] transition-colors"
+                aria-label="Github"
+              >
+                <Github size={24} />
+              </a>
             </div>
           </div>
         </div>
