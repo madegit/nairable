@@ -46,7 +46,7 @@ export function Footer() {
               />
               <Button 
                 type="submit"
-                className="bg-[#00FF85] rounded-xl text-md font-bold tracking-tighter text-black hover:bg-[#00FF85]/90"
+                className="bg-[#00FF85] rounded-xl py-5 text-md font-bold tracking-tighter text-black hover:bg-[#00FF85]/90"
               >
                 Subscribe
               </Button>
@@ -82,40 +82,27 @@ export function Footer() {
             <h3 className="text-md md:text-lg font-semibold mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
               <a 
-                href="#" 
+                href="https://facebook.com/nairable" 
                 className="text-gray-300 hover:text-[#00FF85] transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook size={24} />
               </a>
               <a 
-                href="#" 
+                href="https://twitter.com/nairable/" 
                 className="text-gray-300 hover:text-[#00FF85] transition-colors"
                 aria-label="Twitter"
               >
                 <Twitter size={24} />
               </a>
               <a 
-                href="#" 
+                href="https://instagram.com/nairabledotcom" 
                 className="text-gray-300 hover:text-[#00FF85] transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram size={24} />
               </a>
-              <a 
-                href="#" 
-                className="text-gray-300 hover:text-[#00FF85] transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin size={24} />
-              </a>
-              <a 
-                href="#" 
-                className="text-gray-300 hover:text-[#00FF85] transition-colors"
-                aria-label="GitHub"
-              >
-                <Github size={24} />
-              </a>
+             
             </div>
           </div>
         </div>

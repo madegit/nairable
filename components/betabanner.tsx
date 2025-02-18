@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
-
+import { ArrowUpRight } from "lucide-react"
 export function BetaBanner() {
   return (
     <section className="relative h-[420px] overflow-hidden rounded-3xl bg-[#012513] m-5 md:mx-10 md:h-[360px] ">
@@ -48,6 +48,7 @@ export function BetaBanner() {
               className="h-10 px-8 bg-white text-[#012513] tracking-[-0.02em] md:tracking-[-0.03em] hover:bg-white/90 rounded-xl text-[16px] font-bold md:h-[52px] md:px-20"
             >
               Get in Touch
+               <ArrowUpRight className="w-5 h-5" />
             </Button>
           </a>
         </div>

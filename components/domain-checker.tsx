@@ -121,7 +121,7 @@ export const DomainChecker = () => {
         disabled={loading || !domain}
         className="bg-black text-white px-6 tracking-tight py-2.5 rounded-xl inline-flex items-center gap-2 disabled:bg-gray-400 mb-4"
       >
-        {loading ? "Checking..." : "Unleash Your Domain!"}
+        {loading ? "Checking..." : "Check Domain"}
         <ArrowUpRight className="w-5 h-5" />
       </button>
       {loading && <div className="text-blue-600 animate-pulse">{loadingMessage}</div>}

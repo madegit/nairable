@@ -4,6 +4,7 @@ import  LogoMarquee  from '@/components/LogoMarquee'
 import { BentoGrid } from '@/components/bentogrid'
 import { DomainChecker } from '@/components/domain-checker'
 import { BetaBanner } from '@/components/betabanner'
+import { ProjectBentoGrid } from '@/components/project-grid'
 import { Footer } from '@/components/footer'
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <HeroSection />
       <LogoMarquee />
       <BentoGrid />
+      <ProjectBentoGrid />
       <DomainChecker />
       <BetaBanner />
       <Footer />
