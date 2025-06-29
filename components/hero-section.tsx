@@ -102,8 +102,7 @@ export function HeroSection() {
               className="w-10 h-10 rounded-full border-2 border-white -ml-3"
             />
             <Image
-              src="/user5.jpg
-              "
+              src="/user5.jpg"
               alt="User 3"
               width={40}
               height={40}
