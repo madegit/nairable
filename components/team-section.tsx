@@ -13,7 +13,7 @@ interface TeamMember {
   linkedin?: string;
   twitter?: string;
   email?: string;
-  github?: string
+  github?: string;
 }
 
 const teamMembers: TeamMember[] = [
@@ -25,7 +25,7 @@ const teamMembers: TeamMember[] = [
     image: "/img2.JPG",
     linkedin: "www.linkedin.com/in/mrmade",
     email: "matthew@nairable.com",
-    github: "https://github.com/madegit"
+    github: "https://github.com/madegit",
   },
   {
     id: "2",
@@ -51,8 +51,8 @@ export function TeamSection() {
             <span className="text-gray-600">Creative Team</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto tracking-tight">
-            We're a diverse group of creatives, strategists, and technologists
-            passionate about bringing your vision to life.
+            We&apos;re a diverse group of creatives, strategists, and
+            technologists passionate about bringing your vision to life.
           </p>
         </div>
 
@@ -138,8 +138,8 @@ export function TeamSection() {
             Ready to work with us?
           </h3>
           <p className="text-gray-600 mb-8 max-w-md mx-auto">
-            Let's discuss your project and see how our team can help bring your
-            vision to life.
+            Let&apos;s discuss your project and see how our team can help bring
+            your vision to life.
           </p>
           <a
             href="https://wa.me/message/HZ7KP2RUZNY2G1"
