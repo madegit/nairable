@@ -170,54 +170,6 @@ export const BentoGrid = () => {
             presence.
           </p>
         </div>
-
-        {/* Our Approach */}
-        <div className="bg-gray-100 rounded-3xl p-6 md:p-8 relative overflow-hidden min-h-[280px] md:min-h-[400px] flex flex-col">
-          <div className="absolute top-0 right-0 w-20 h-20 md:w-32 md:h-32 bg-gray-200 -z-0" />
-          <div className="relative z-10 flex-1 flex flex-col justify-between">
-            <div className="flex justify-center mb-4">
-              <Image
-                src="/placeholder.svg"
-                alt="Phone mockup"
-                width={120}
-                height={240}
-                className="md:w-[200px] md:h-[400px] object-contain"
-              />
-            </div>
-            <div>
-              <h3 className="text-xl md:text-2xl font-bold tracking-tighter">
-                Our Approach
-              </h3>
-              <p className="text-gray-600 tracking-tight text-sm md:text-base">
-                We focus on collaboration, creativity, and results.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Why Choose Us */}
-        <div className="bg-[#FFE8E8] rounded-3xl p-6 md:p-8 min-h-[200px] md:min-h-[280px] flex flex-col">
-          <div className="grid grid-cols-4 gap-2 md:gap-3 mb-4 md:mb-6 flex-1">
-            {["❤️", "📸", "🔔", "⭐️", "👍", "✈️", "Aa", "⭐️"].map(
-              (icon, i) => (
-                <div
-                  key={i}
-                  className="bg-white p-2 md:p-3 rounded-lg md:rounded-xl shadow-sm flex items-center justify-center aspect-square"
-                >
-                  <span className="text-sm md:text-lg">{icon}</span>
-                </div>
-              ),
-            )}
-          </div>
-          <div>
-            <h3 className="text-xl md:text-2xl font-bold tracking-tighter">
-              Why Choose Us
-            </h3>
-            <p className="text-gray-600 mt-2 tracking-tight text-sm md:text-base">
-              Expert team with proven track record of success.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
